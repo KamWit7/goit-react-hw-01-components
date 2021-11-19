@@ -1,0 +1,33 @@
+.Stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  padding: 0;
+  margin-top: 10px;
+  list-style: none;
+  background-color: rgba(255, 238, 255, 0.698);
+  color: #000;
+  font-size: 20px;
+}
+
+li {
+  width: 93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 0;
+  border-left: solid;
+  /* border-right: solid; */
+  border-width: 2px;
+  border-color: rgba(158, 158, 158, 0.698);
+}
+.Label {
+  font-size: 15px;
+  color: #d0f0f0;
+}
+
+.Quantity {
+}
