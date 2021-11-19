@@ -1,26 +1,15 @@
 import "./App.css"
-import Profile from "./Profil/Profile"
-import Stats from "./Profil/Stats"
-import user from "./Profil/user.json"
+
+import Ex1 from "./Profil/Ex1"
+import Ex2 from "./SekcjaStatystyki/Ex2"
+// import Ex3 from "./ListaZnajomych/Ex3"
 
 function App() {
-  /* Ex.1 Start */
-  const { username, tag, location, avatar } = user
-  const { followers, views, likes } = user.stats
-  /* Ex.1 End */
-
   return (
     <div className="App">
       <header className="App-header">
-        {/* Ex.1 Start */}
-        <Profile
-          username={username}
-          tag={tag}
-          location={location}
-          avatar={avatar}
-        />
-        <Stats followers={followers} views={views} likes={likes} />
-        {/* Ex.1 End */}
+        <Ex1 />
+        <Ex2 />
       </header>
     </div>
   )

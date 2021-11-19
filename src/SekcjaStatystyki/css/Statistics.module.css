@@ -1,0 +1,22 @@
+.Statistics {
+}
+.Title {
+}
+.Statlist {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fefe;
+  color: #000;
+  border-radius: 30px;
+}
+.Item {
+  border-radius: 10px;
+}
+.Label {
+}
+.Perecentage {
+}
