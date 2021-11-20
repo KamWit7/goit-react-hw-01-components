@@ -7,8 +7,9 @@ import {
   Location,
 } from "./css/Profile.module.css"
 
-const Profile = ({ username, tag, location, avatar }) => {
-  console.log(Avatar)
+const Profile = ({ userInfo }) => {
+  const { username, tag, location, avatar } = userInfo
+
   return (
     <div className={Description}>
       <img src={avatar} alt={"User avatar"} className={Avatar} />
