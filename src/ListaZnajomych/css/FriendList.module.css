@@ -1,0 +1,52 @@
+.Item {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  border: none;
+  border-radius: 10px;
+
+  background-color: #fefe;
+}
+
+.Item:hover {
+  background-color: #f7f7;
+}
+
+.Status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.Online {
+  composes: Status;
+  background-color: #0e0e;
+}
+
+.Ofline {
+  composes: Status;
+  background-color: #fa0000;
+}
+
+.Name {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #000;
+  font-weight: 700;
+}
+
+.Item:hover .Name {
+  color: #0105;
+}
+
+/* .Friend-List {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+} */
