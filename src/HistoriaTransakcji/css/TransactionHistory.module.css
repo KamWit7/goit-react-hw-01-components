@@ -1,0 +1,26 @@
+table {
+  width: 500px;
+  font-size: 25px;
+  border-collapse: collapse;
+  background-color: #fefe;
+  color: #001234;
+  border: 2px solid rebeccapurple;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: rebeccapurple;
+  color: rgba(236, 215, 236, 0.933);
+}
+
+th {
+  padding: 15px;
+}
+
+td {
+  padding: 15px;
+  border: 1px solid rgba(85, 71, 71, 0.561);
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
