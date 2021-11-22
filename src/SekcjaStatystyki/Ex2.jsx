@@ -11,3 +11,5 @@ function Ex2() {
 }
 
 export default Ex2
+
+ 

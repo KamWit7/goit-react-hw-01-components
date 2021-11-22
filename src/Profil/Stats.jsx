@@ -10,7 +10,9 @@ const ListItems = ({ statText, stat }) => {
   )
 }
 
-const Stats = ({ followers, views, likes }) => {
+const Stats = ({ stats }) => {
+  const { followers, views, likes } = stats
+
   return (
     <ul className={styles.Stats}>
       <ListItems statText="Followers" stat={followers} />
